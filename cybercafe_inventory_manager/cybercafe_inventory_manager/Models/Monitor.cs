@@ -2,13 +2,8 @@
 
 namespace cybercafe_inventory_manager.Models
 {
-    public class Monitor
+    public class Monitor:ModelsAbstract
     {
-        [Key]
-        public int Id { get; set; }
-        [MaxLength(20)]
-        [Required]
-        public string brand { get; set; }
         [MaxLength(20)]
         [Required]
         public string model { get; set; }

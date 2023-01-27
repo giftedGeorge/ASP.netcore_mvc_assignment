@@ -2,13 +2,8 @@
 
 namespace cybercafe_inventory_manager.Models
 {
-    public class Computer
+    public class Computer:ModelsAbstract
     {
-        [Key]
-        public int Id { get; set; }
-        [MaxLength(20)]
-        [Required]
-        public string brand { get; set; }
         [Required]
         public float processor_speed { get; set; }
         [Required]

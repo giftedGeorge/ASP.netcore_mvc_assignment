@@ -69,3 +69,6 @@ C:\Users\LENOVO\Desktop\GIT\DWIT_Internship\ASP.netcore_mvc_assignment\cybercafe
 C:\Users\LENOVO\Desktop\GIT\DWIT_Internship\ASP.netcore_mvc_assignment\cybercafe_inventory_manager\cybercafe_inventory_manager\obj\Debug\netcoreapp3.1\cybercafe_inventory_manager.dll
 C:\Users\LENOVO\Desktop\GIT\DWIT_Internship\ASP.netcore_mvc_assignment\cybercafe_inventory_manager\cybercafe_inventory_manager\obj\Debug\netcoreapp3.1\cybercafe_inventory_manager.pdb
 C:\Users\LENOVO\Desktop\GIT\DWIT_Internship\ASP.netcore_mvc_assignment\cybercafe_inventory_manager\cybercafe_inventory_manager\obj\Debug\netcoreapp3.1\cybercafe_inventory_manager.genruntimeconfig.cache
+C:\Users\LENOVO\Desktop\GIT\DWIT_Internship\ASP.netcore_mvc_assignment\cybercafe_inventory_manager\cybercafe_inventory_manager\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\LENOVO\Desktop\GIT\DWIT_Internship\ASP.netcore_mvc_assignment\cybercafe_inventory_manager\cybercafe_inventory_manager\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\LENOVO\Desktop\GIT\DWIT_Internship\ASP.netcore_mvc_assignment\cybercafe_inventory_manager\cybercafe_inventory_manager\bin\Debug\netcoreapp3.1\System.Text.Json.dll
