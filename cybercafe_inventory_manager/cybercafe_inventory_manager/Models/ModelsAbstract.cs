@@ -2,6 +2,7 @@
 
 namespace cybercafe_inventory_manager.Models
 {
+    //abstract class that holds the common fields
     public abstract class ModelsAbstract
     {
         [Key]
