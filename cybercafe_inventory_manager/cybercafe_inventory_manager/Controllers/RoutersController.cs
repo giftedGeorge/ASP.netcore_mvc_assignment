@@ -12,10 +12,10 @@ namespace cybercafe_inventory_manager.Controllers
     [ApiController]
     public class RoutersController : ControllerBase
     {
-        private readonly IRouter _repository;
+        private readonly IRouterRepository _repository;
         private readonly IMapper _mapper;
 
-        public RoutersController(IRouter repository, IMapper mapper)
+        public RoutersController(IRouterRepository repository, IMapper mapper)
         {
             _repository = repository;
             _mapper = mapper;

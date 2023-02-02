@@ -63,13 +63,13 @@ namespace cybercafe_inventory_manager
 
             services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
-            services.AddScoped<IComputer, SqlInventoryRepo>();
-            services.AddScoped<IKeyboard, SqlInventoryRepo>();
-            services.AddScoped<IMouse, SqlInventoryRepo>();
-            services.AddScoped<IMonitor, SqlInventoryRepo>();
-            services.AddScoped<IRouter, SqlInventoryRepo>();
+            services.AddScoped<IComputerRepository, ComputerInventoryRepo>();
+            services.AddScoped<IKeyboardRepository, KeyboardInventoryRepo>();
+            services.AddScoped<IMouseRepository, MouseInventoryRepo>();
+            services.AddScoped<IMonitorRepository, MonitorInventoryRepo>();
+            services.AddScoped<IRouterRepository, RouterInventoryRepo>();
 
-            //services.AddScoped<IComputer, MockInventoryRepo>();
+            //services.AddScoped<IComputerRepository, MockInventoryRepo>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

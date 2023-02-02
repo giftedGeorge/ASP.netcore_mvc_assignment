@@ -12,10 +12,10 @@ namespace cybercafe_inventory_manager.Controllers
     [ApiController]
     public class MonitorsController : ControllerBase
     {
-        private readonly IMonitor _repository;
+        private readonly IMonitorRepository _repository;
         private readonly IMapper _mapper;
 
-        public MonitorsController(IMonitor repository, IMapper mapper)
+        public MonitorsController(IMonitorRepository repository, IMapper mapper)
         {
             _repository = repository;
             _mapper = mapper;

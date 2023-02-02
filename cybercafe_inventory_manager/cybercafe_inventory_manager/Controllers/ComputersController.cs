@@ -12,11 +12,11 @@ namespace cybercafe_inventory_manager.Controllers
     [ApiController]
     public class ComputersController:ControllerBase
     {
-        private readonly IComputer _repository;
+        private readonly IComputerRepository _repository;
         private readonly IMapper _mapper;
         private readonly List<int> _noOfCoresOptions = new List<int> {1,2,4,8};
 
-        public ComputersController(IComputer repository, IMapper mapper)
+        public ComputersController(IComputerRepository repository, IMapper mapper)
         {
             _repository = repository;
             _mapper = mapper;

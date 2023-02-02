@@ -12,11 +12,11 @@ namespace cybercafe_inventory_manager.Controllers
     [ApiController]
     public class MiceController : ControllerBase
     {
-        private readonly IMouse _repository;
+        private readonly IMouseRepository _repository;
         private readonly IMapper _mapper;
         private readonly List<string> _mouseTypeOptions = new List<string> {"yes", "no"};
 
-        public MiceController(IMouse repository, IMapper mapper)
+        public MiceController(IMouseRepository repository, IMapper mapper)
         {
             _repository = repository;
             _mapper = mapper;

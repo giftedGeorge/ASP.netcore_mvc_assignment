@@ -12,14 +12,14 @@ namespace cybercafe_inventory_manager.Controllers
     [ApiController]
     public class KeyboardsController : ControllerBase
     {
-        private readonly IKeyboard _repository;
+        private readonly IKeyboardRepository _repository;
         private readonly IMapper _mapper;
         private readonly List<string> _keyboardTypeOptions = new List<string> {"wireless", "wired"};
         private readonly List<string> _numericKeypadOptions = new List<string> { "yes", "no" };
         private readonly List<string> _hasBacklightOptions = new List<string> { "yes", "no" };
 
 
-        public KeyboardsController(IKeyboard repository, IMapper mapper)
+        public KeyboardsController(IKeyboardRepository repository, IMapper mapper)
         {
             _repository = repository;
             _mapper = mapper;

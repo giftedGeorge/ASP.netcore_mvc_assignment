@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace cybercafe_inventory_manager.Data
 {
-    public interface IKeyboard
+    public interface IKeyboardRepository
     {
         bool SaveChanges();
 
